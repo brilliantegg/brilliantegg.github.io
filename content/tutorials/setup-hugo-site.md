@@ -1,7 +1,7 @@
 ---
-title: "Setup Hugo Site"
+title: "Setup Hugo Site Locally"
 date: 2023-03-29T16:27:03+08:00
-tags: []
+tags: [Hugo]
 draft: false
 ---
 
@@ -26,6 +26,8 @@ Type `hugo new posts/your-post-name.md` and edit the .md file. Remember to set t
 
 ---
 Ref
-https://gohugo.io/getting-started/quick-start/
+
+Official doc: https://gohugo.io/getting-started/quick-start/  
+Theme creator: https://github.com/mavidser/hugo-rocinante  
 
 <!--more-->
