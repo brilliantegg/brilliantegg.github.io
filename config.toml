@@ -1,4 +1,4 @@
-baseURL = 'http://example.org/'
+baseURL = 'https://brilliantegg.github.io/'
 languageCode = 'en-us'
 title = 'Audrey's'
 theme = 'rocinante'
