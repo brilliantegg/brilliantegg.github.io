@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Posts · Audrey</title>
+
+
+
+<link rel="stylesheet" href="/css/rocinante.css" />
+
+<link rel="alternate" type="application/rss+xml" href="https://brilliantegg.github.io/posts/index.xml" title="Audrey" />
+<body>
+    <header><h2>
+  
+    <a href="https://brilliantegg.github.io/">‹ Audrey</a>
+  
+</h2>
+</header>
+    <main>
+    <div class="combined-title-pagination">
+      <h1>Posts</h1>
+      
+    </div>
+    <hr>
+<article class="post-list">
+    <div class="title-group">
+        <div class="title">
+            <h1><a href="/posts/setup-hugo-site/">Setup Hugo Site</a></h1>
+        </div>
+        
+        <div class="date"><h5>Mar 29, 2023</h5></div>
+        
+    </div class="title-group">
+
+    <div class="content">
+        <p>Hello there. This is Audrey and this is the real &ldquo;First Post&rdquo; of this blog.</p>
+<p>Today I want to take a note of how to set up a Hugo site on my GitHub.
+I worked with a Mac M1 machine with a x86 iTrem.</p>
+<ol>
+<li>Type <code>brew install hugo</code> to install the latest version of Hugo on my machine.
+If you want to know about the version installed, can use the command <code>hugo version</code></li>
+<li>Type <code>hugo new site your-new-project-name</code> then move to the current project position <code>cd your-new-project-name</code>.</li>
+<li>Then initialize a git repo inside the folder and install a theme. Here is the sample provided on the official tutorial doc.
+<pre tabindex="0"><code>git init
+git submodule add https://github.com/theNewDynamic/gohugo-theme-ananke themes/ananke
+echo &#34;theme = &#39;ananke&#39;&#34; &gt;&gt; config.toml
+</code></pre></li>
+<li>Run <code>hugo server</code> to see if it functions normally.</li>
+</ol>
+<p>After checking the local server, you can start to write your first post.
+Type <code>hugo new posts/your-post-name.md</code> and edit the .md file. Remember to set the bool value of the &ldquo;draft&rdquo; option to true, or it won&rsquo;t be visible on your blog.</p>
+<hr>
+<p>Ref
+<a href="https://gohugo.io/getting-started/quick-start/" target="_blank">https://gohugo.io/getting-started/quick-start/</a></p>
+        
+    </div>
+    
+        
+    
+
+</article>
+
+<article class="post-list">
+    <div class="title-group">
+        <div class="title">
+            <h1><a href="/posts/my-first-post/">My First Post</a></h1>
+        </div>
+        
+        <div class="date"><h5>Mar 29, 2023</h5></div>
+        
+    </div class="title-group">
+
+    <div class="content">
+        <p>&ldquo;Hello world&rdquo; seems cliche for the first post for a new blog. But I want to write it anyway.</p>
+        
+    </div>
+    
+        
+    
+
+</article>
+
+    <div class="paginator">
+        
+            <a class="older disabled">« Older posts</a>
+        
+
+        
+            <a class="newer disabled">Newer posts »</a>
+        
+    </div>
+
+    </main>
+    <footer></footer>
+    
+    <script>
+      const emailId = atob("");
+    </script></body>
+</html>

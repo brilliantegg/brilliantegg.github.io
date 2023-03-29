@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Audrey</title>
+    <link>https://brilliantegg.github.io/posts/</link>
+    <description>Recent content in Posts on Audrey</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 29 Mar 2023 16:27:03 +0800</lastBuildDate><atom:link href="https://brilliantegg.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Setup Hugo Site</title>
+      <link>https://brilliantegg.github.io/posts/setup-hugo-site/</link>
+      <pubDate>Wed, 29 Mar 2023 16:27:03 +0800</pubDate>
+      
+      <guid>https://brilliantegg.github.io/posts/setup-hugo-site/</guid>
+      <description>&lt;p&gt;Hello there. This is Audrey and this is the real &amp;ldquo;First Post&amp;rdquo; of this blog.&lt;/p&gt;
+&lt;p&gt;Today I want to take a note of how to set up a Hugo site on my GitHub.
+I worked with a Mac M1 machine with a x86 iTrem.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Type &lt;code&gt;brew install hugo&lt;/code&gt; to install the latest version of Hugo on my machine.
+If you want to know about the version installed, can use the command &lt;code&gt;hugo version&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Type &lt;code&gt;hugo new site your-new-project-name&lt;/code&gt; then move to the current project position &lt;code&gt;cd your-new-project-name&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;Then initialize a git repo inside the folder and install a theme. Here is the sample provided on the official tutorial doc.
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;git init
+git submodule add https://github.com/theNewDynamic/gohugo-theme-ananke themes/ananke
+echo &amp;#34;theme = &amp;#39;ananke&amp;#39;&amp;#34; &amp;gt;&amp;gt; config.toml
+&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
+&lt;li&gt;Run &lt;code&gt;hugo server&lt;/code&gt; to see if it functions normally.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;After checking the local server, you can start to write your first post.
+Type &lt;code&gt;hugo new posts/your-post-name.md&lt;/code&gt; and edit the .md file. Remember to set the bool value of the &amp;ldquo;draft&amp;rdquo; option to true, or it won&amp;rsquo;t be visible on your blog.&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;Ref
+&lt;a href=&#34;https://gohugo.io/getting-started/quick-start/&#34; target=&#34;_blank&#34;&gt;https://gohugo.io/getting-started/quick-start/&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>My First Post</title>
+      <link>https://brilliantegg.github.io/posts/my-first-post/</link>
+      <pubDate>Wed, 29 Mar 2023 16:22:49 +0800</pubDate>
+      
+      <guid>https://brilliantegg.github.io/posts/my-first-post/</guid>
+      <description>&lt;p&gt;&amp;ldquo;Hello world&amp;rdquo; seems cliche for the first post for a new blog. But I want to write it anyway.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>
