@@ -6,5 +6,3 @@ draft: false
 ---
 
 "Hello world" seems cliche for the first post for a new blog. But I want to write it anyway.
-
-<!--more-->
