@@ -10,6 +10,8 @@ Hello there. This is Audrey and this is the real "First Post" of this blog.
 Today I want to take a note of how to set up a Hugo site on my GitHub.
 I worked with a Mac M1 machine with a x86 iTrem.
 
+<!--more-->
+
 1. Type `brew install hugo` to install the latest version of Hugo on my machine.
    If you want to know about the version installed, can use the command `hugo version`
 2. Type `hugo new site your-new-project-name` then move to the current project position `cd your-new-project-name`.
@@ -29,5 +31,3 @@ Ref
 
 Official doc: https://gohugo.io/getting-started/quick-start/  
 Theme creator: https://github.com/mavidser/hugo-rocinante  
-
-<!--more-->
