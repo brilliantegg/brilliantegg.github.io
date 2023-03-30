@@ -1,0 +1,13 @@
+:root {
+    --maincolor: #81BECE;
+    --bordercl: #012E4A;
+    --callouctcolor: dodgerblue;
+    --hovercolor: #036280;
+    --darkMaincolor: #81BECE;
+}
+
+hr {
+    margin: 2em 0;
+}
+
+/* color palette ref: https://colorpalettes.net/color-palette-4553/ */
