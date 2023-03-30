@@ -2,5 +2,5 @@
 	path = themes/rocinante
 	url = https://github.com/mavidser/hugo-rocinante.git
 [submodule "archie"]
-	path = archie
+	path = themes/archie
 	url = https://github.com/athul/archie.git
