@@ -14,5 +14,12 @@ Audrey has worked as a software engineer at Fazz Financial Group and as a C# dev
 In her free time, Audrey enjoys reading manga, watching shows and movies, training at the gym, and listening to classical and jazz music. She also has a desire to learn ballet in the future.
 
 ---
+Email: audrey.chiahui.chu@gmail.com
+
+GitHub: https://github.com/brilliantegg
+
+LinkedIn: https://www.linkedin.com/in/chia-hui-chu/
+
+---
 
 Current blog theme: https://github.com/athul/archie
