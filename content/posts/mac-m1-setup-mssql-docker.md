@@ -15,7 +15,7 @@ My machine: Macbook Pro with M1 chip
     docker pull mcr.microsoft.com/mssql/server:2022-latest
     ```
 3. Before you run your docker image, be sure to adjust settings.  
-    Settings > Features in development > Beta features
+    Settings > Features in development > Beta features  
     Check this option: "Use Rosetta for x86/amd64 emulation on Apple Silicon"
 4. Run the command below to run your docker image.
     ```

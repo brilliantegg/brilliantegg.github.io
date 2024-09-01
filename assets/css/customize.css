@@ -10,4 +10,28 @@ hr {
     margin: 2em 0;
 }
 
+h1 {
+    font-size: 1.2rem;
+    margin-top: 1.5em;
+}
+
+h2 {
+    font-size: 1.1rem;
+    margin-top: 1.5em;
+}
+
+h3 {
+    font-size: 0.9rem;
+    margin-top: 1.5em;
+}
+
+h4 {
+    font-size: 0.8rem;
+    margin-top: 1.5em;
+}
+
+strong {
+    font-weight: bolder;
+}
+
 /* color palette ref: https://colorpalettes.net/color-palette-4553/ */
